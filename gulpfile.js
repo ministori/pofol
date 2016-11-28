@@ -22,7 +22,7 @@ gulp.task('watch', function() {
     livereload.listen();
     gulp.watch('*', ['check']);
     gulp.watch('js/*', ['check']);
-    gulp.watch('css/*', ['check']);
+    gulp.watch('css_scss/*', ['check']);
     gulp.watch('html_src/**', ['include', 'check']);
 });
 
