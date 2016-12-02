@@ -1,0 +1,59 @@
+/* 헤더 영역 */
+.header{
+  width:900px;
+  height:120px;
+
+  &:after{
+    content:"";
+    display:block;
+    clear:both
+  }
+}
+
+/* 로고 영역 */
+.logo{
+  float:left;
+  width:100px;
+  height:100px;
+
+  font-size:30px;
+  text-align:center;
+  line-height:100px;
+  background:#0fd;
+
+  &-link{
+    display:block;
+    height:100%;
+  }
+
+}
+
+/* 메뉴 영역 */
+.gnb{
+  float:right;
+  height:100px;
+
+  &-depth1{
+
+    &:after{
+      content:"";
+      display:block;
+      clear:both;
+    }
+
+    &-item{
+      float:left;
+      padding:0 50px;
+    }
+
+    &-link{
+      font-size:14px;
+      font-weight:bold;
+      color:#333;
+
+      &:hover{
+        color:#f00;
+      }
+    }
+  }
+}
